@@ -1,4 +1,4 @@
-📜 **SURVEY CLASSIFIER** \
+📜 **TURKISH SURVEY CLASSIFIER** \
 \
 &emsp; This app is a Dockerized Deep Learning application that classifies survey feedbacks as positive or negative. The app takes in a CSV file containing survey feedbacks and outputs a new CSV file with an additional column indicating whether each feedback is positive or negative. (Feedbacks should be row by row in input csv file)
 
