@@ -14,7 +14,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # read csv file as pandas DataFrame
-    data = pd.read_csv(args.input, header=None)
+    data = pd.read_csv(args.input, header=None, on_bad_lines='skip')
     data.columns = ['Feedback']
 
     predictions = []
